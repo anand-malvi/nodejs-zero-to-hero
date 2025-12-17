@@ -34,7 +34,9 @@ calcEmitter.on('divideNumbers', (a, b) => {
 });
 
 // Emit with valid numbers
-calcEmitter.emit('divideNumbers', 10, 2);
+// calcEmitter.emit('divideNumbers', 10, 2);
 
 // Emit with zero divisor
-calcEmitter.emit('divideNumbers', 5, 0);
+// calcEmitter.emit('divideNumbers', 5, 0);
+
+console.log(process);
